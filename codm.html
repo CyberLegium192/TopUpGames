@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ========CDN LINK BOOTSTRAP=========== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="asset/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="asset/font-awesome/css/all.css" />
+  <!-- ============LINK STYLE ===============-->
+  <link rel="stylesheet" href="asset/css/style.css"/>
+  <link rel="stylesheet" href="asset/css/ff.css"/>
+  
+  <title>N store</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <!-- ==========NAVIGASI BAR============== -->
+  
+  <nav class="navbar navbar-expand-lg shadow navbar-dark bg-dark" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+       <img src="asset/img/brand.png" width="40" height=34>
+      </a>
+      
+      <!-- BUTTON DROPDOWN -->
+      <button class="navbar-toggler text-secondary border border-secondary border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 val">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="index.html"><i class="fa-solid fa-house-user home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="cek.html"><i class="fa-solid fa-magnifying-glass home"></i>chack invoice</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-calculator home"></i>
+              Calculator ML
+            </a>
+            <ul class="dropdown-menu text-white navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-light" href="wr.html"><i class="fa-solid fa-id-card home"></i>hitung wr ml</a></li>
+              <li><a class="dropdown-item text-light" href="zodiak.html"><i class="fa-solid fa-id-card home"></i>hp zodiak</a></li>
+              <li><a class="dropdown-item text-light" href="wheel.html"><i class="fa-solid fa-id-card home"></i>hp magic wheel</a></li>
+            </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- CONTENT -->
+  <div class="box-shadow">
+    <h4>Call of Duty Mobile</h4>
+    <span class="line"></span>
+    <div class="box-proses">
+      <img src="asset/img/codm.jpeg" alt="codm">
+      <p class="proses">garena</p>
+      <p class="proses2">Top Up CP Call of Duty Mobile Resmi Garena<br>100% Legal , Mudah , Aman dan Terpercaya</p>
+    </div>
+    <div class="box-step">
+      <ol>
+        <li>Masukkan <b>ID (wajib bind fb)</b></li>
+        <li>PIlih <b>Nominal</b>CP</li>
+        <li>PIlih <b>metode pembayaran</b></li>
+        <li>tulis <b>Nomer whatsApp</b></li>
+        <li>klik <b>beli</b>& lakukan pembayaran</li>
+        <li><b>tunggi 1-10 menit</b> CP <b>otomatis</b>masuk ke akunmu</li>
+      </ol>
+    </div>
+    <center>
+      <h5>Top Up Buka 24 Jam</h5>
+    </center>
+  </div>
+  
+  <!-- ========FORM ID SERVER============ -->
+  <div class="box-shadow2">
+    <h5>lengkapi data</h5>
+    <form class="data-id">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label asu">open ID</label>
+        <input type="number" class="form-control form-control-sm" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <button type="submit" class="btn btn-sm btn-transparant petunjuk">petunjuk</button>
+    </form>
+  </div>
+  <!-- ========FORM ID SERVER END============ -->
+  
+  
+  <!-- =========CHOOSE DIAMOND============== -->
+  <div class="box-shadow3">
+    <div class="wrapper-diamond">
+    <h5>pilih nominal</h5>
+      <div class="container">
+        <div class="row gx-2">
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf1()">
+              <div id="dinda1">
+                <p>63 CP</p>
+                <span>Rp 9.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf2()">
+              <div id="dinda1">
+                <p> 128 CP</p>
+                <span>Rp 18.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf3()">
+              <div id="dinda1">
+                <p>321 CP</p>
+                <span>Rp 46.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf4()">
+              <div id="dinda1">
+                <p>384 CP</p>
+                <span>Rp 55.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf5()">
+              <div id="dinda1">
+                <p>449 CP</p>
+                <span>Rp 64.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf6()">
+              <div id="dinda1">
+                <p>645 CP</p>
+                <span>Rp 92.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf7()">
+              <div id="dinda1">
+                <p>800 CP</p>
+                <span>Rp 110.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf8()">
+              <div id="dinda1">
+                <p>966 CP</p>
+                <span>Rp 138.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf9()">
+              <div id="dinda1">
+                <p>1373 CP</p>
+                <span>Rp 184.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf10()">
+              <div id="dinda1">
+                <p>1675 CP</p>
+                <span>Rp 231.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf11()">
+              <div id="dinda1">
+                <p>2060 CP</p>
+                <span>Rp 277.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf12()">
+              <div id="dinda1">
+                <p>3564 CP</p>
+                <span>Rp 462.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf13()">
+              <div id="dinda1">
+                <p>4937 CP</p>
+                <span>Rp 646.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf14()">
+              <div id="dinda1">
+                <p>5619 CP</p>
+                <span>Rp 674.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf15()">
+              <div id="dinda1">
+                <p>7656 CP</p>
+                <span>Rp 924.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf16()">
+              <div id="dinda1">
+                <p>9029 CP</p>
+                <span>Rp 1.108.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf17()">
+              <div id="dinda1">
+                <p>9716 CP</p>
+                <span>Rp 1.201.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf18()">
+              <div id="dinda1">
+                <p>11220 CP</p>
+                <span>Rp 1.386.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tpf19()">
+              <div id="dinda1">
+                <p>15312 CP</p>
+                <span>Rp 1.848.000</span>
+              </div>
+            </label>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  <!-- ==========PAYENT CHOOSE============ -->
+  <div class="box-shadow4" id="pembayaran">
+    <h5>pilih metode pembayaran</h5>
+    <p class="wallet">E-Wallet</p>
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/dana.png" alt="" class="img-payment1">
+                  <h5>dana</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/Gopay.png" alt="" class="img-payment1">
+                  <h5>gopay</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/ovo.png" alt="" class="img-payment1">
+                  <h5>ovo</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+         <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/qris.png" alt="" class="img-payment1">
+                    <h5>Qris</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/Linkaja.png" alt="" class="img-payment1">
+                  <h5>link</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        
+        
+        <!-- ====BANK TRANSFER====== -->
+        <p class="wallet2">bank transfer</p>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/bca.png" alt="" class="img-payment1">
+                  <h5>bca</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/bri.png" alt="" class="img-payment1">
+                  <h5>bri</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/bni.png" alt="" class="img-payment1">
+                  <h5>bni</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        
+        
+        <!-- STORE -->
+        <p class="wallet2">store</p>
+        <div class="col-12">
+          <div class="col-12 ">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/indomart.png" alt="" class="img-payment1">
+                  <h5>Indomart</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        </div>
+        <div class="col-12 pb-3">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="asset/img/payment/alfa.png" alt="" class="img-payment1">
+                  <h5>alfamart</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- ==========ORDER DIAMOND============ -->
+  <div class="box-shadow5">
+    <h5>nomer whatsapp</h5>
+    <div class="email-kon">
+      <div class="mb-3 row mt-4">
+        <label for="" class="col-sm-2 col-form-label whatsapp">nomer whatsapp
+        </label> 
+        <div class="col-sm-10 d-flex justify-content-center flex-column">
+          <input type="number" class="form-control wa" id="inputPassword" placeholder="nomer whatsapp">
+          <span class="acc">Dengan membeli otomatis saya menyutujui <a class="tol">Ketentuan Layanan</a></span>
+          <button type="button" class="btn btn-warning mt-2" style="width:25%;">beli</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  <div class="container-harga" id="total">
+    <div class="wrapper-harga">
+      <p id="total1">Rp</p>
+      <button type="button" class="btn btn-primary beli">BELI</button>
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- ============FOOTER================ -->
+  <footer>
+    <div class="container-menu">
+      <div class="wrapper-menu" id="colorList">
+        <p class="menu">Menu</p>
+        <ul class="ul-menu">
+          <li><a href="index.html" class="menu-list" id="listColor1"><span>></span> home</a></li>
+          <li><a href="wr.html" class="menu-list"id="listColor3"><span>></span> hitung WR</a></li>
+          <li><a href="wheel.html" class="menu-list" id="listColor2"><span>></span> hitung point magic wheel<a/></li>
+        </ul>
+        <p class="service">other service</p>
+        <ul class="ul-service">
+          <li><a href="" class="service-list"><span>></span> point blank</a></li>
+          <li><a href="" class="service-list"><span>></span> super sus</a></li>
+          <li><a href="" class="service-list"><span>></span> genshin impact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-end" id="footer">
+      <div class="wrapper-end">
+        <a class="enda2">Copyright © 2021 by <a class="enda">VAL STORE</a><a class="enda2">All Rights Reserved. Owned by PT NOVAL STORE INDONESIA</a><a class="enda">Terms and conditions</a> - <a class="enda">Privacy Policy</a></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- ========CALL CENTER CONTACT========== -->
+  
+  <div class="fab-container">
+    <div class="fab fab-icon-holder" style="background-color:#FFF; padding:5px">
+      <img src="asset/img/dinda.jpg" class="img-fluid" alt="" loading="lazy">
+    </div>
+    <ul class="fab-options">
+      <li>
+        <a href="https://www.instagram.com/novalsyahhhh/" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/6285748638453" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background-color: #25D366;">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@valsyahh_?_t=8Yyh1RapBNy&_r=1" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background-color: #5865F2;">
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <a href="#" class="act-btn-top text-decoration-none" onclick="toTop()" style="display: none; background-color: #bd4cae; bottom: 19px;" data-cf-modified-3b8231d928fbd77a69f52826-="">
+    <i class="fas fa-angle-up mt-2"></i>
+    </a>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="asset/js/codm.js" type="text/javascript" charset="utf-8"></script>
+  <script src="asset/js/dark.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

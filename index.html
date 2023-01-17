@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- ========CDN LINK BOOTSTRAP=========== -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="asset/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="asset/font-awesome/css/all.css" />
+  <!-- ============LINK STYLE ===============-->
+  <link rel="stylesheet" href="asset/css/style.css"/>
+  
+  <title>N store</title>
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <!-- ==========NAVIGASI BAR============== -->
+  
+  <nav class="navbar navbar-expand-lg shadow navbar-dark bg-dark" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+       <img src="asset/img/brand.png" width="40" height=34>
+      </a>
+      
+      <!-- BUTTON DROPDOWN -->
+      <button class="navbar-toggler text-secondary border border-secondary border-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-dark"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 val">
+          <li class="nav-item">
+            <a class="nav-link text-light" aria-current="page" href="index.html"><i class="fa-solid fa-house-user home"></i>Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="cek.html"><i class="fa-solid fa-magnifying-glass home"></i>chack invoice</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa-solid fa-calculator home"></i>
+              Calculator ML
+            </a>
+            <ul class="dropdown-menu text-white navbar-dark bg-dark" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item text-light" href="wr.html"><i class="fa-solid fa-id-card home"></i>hitung wr ml</a></li>
+              <li><a class="dropdown-item text-light" href="zodiak.html"><i class="fa-solid fa-id-card home"></i>hp zodiak</a></li>
+              <li><a class="dropdown-item text-light" href="wheel.html"><i class="fa-solid fa-id-card home"></i>hp magic wheel</a></li>
+            </ul>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <!-- =======SLIDE IMAGE / CAROUSEL======== -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="asset/img/slide1.jpg" class="d-block w-100" alt="SLIDE">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="asset/img/slide2.jpg" class="d-block w-100" alt="SLIDE">
+      </div>
+      <div class="carousel-item">
+        <img src="asset/img/slide3.jpg" class="d-block w-100" alt="LOGO">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+  
+  <!-- ===========SEARCH INPUT============= -->
+  <form class="d-flex input-group-md mt-2">
+    <input class="form-control" type="search" placeholder="nyari disini cuy!!" aria-label="Search">
+    <button class="btn btn-outline-dark bg-warning ml-2 " type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </form>
+  
+  <h2 class="top-up">top up</h2>
+  <span class="garis"></span>
+  
+  
+  
+  <!-- ===========CARD COLUMNS============= -->
+  <div class="container mt-3" id="Vallsyah">
+    <div class="row g-2">
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======MOBILE LEGENDS========= -->
+          <a href="ml.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color1">
+              <img src="asset/img/ml.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body ">
+                <p class="card-text text-center" >Mobile Legends BANG BANG</p>
+              </div>
+            </div>
+          </a>
+        <!-- ========MOBILE LEGENDS======= -->
+        </div>
+      </div>
+      <!-- ===========CARD END============= -->
+      
+      <!-- ==========CARD START============ -->
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======FREE FIRE========= -->
+          <a href="ff.html" class="item-choose">
+            <div class="card" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color2">
+              <img src="asset/img/ff.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body ">
+                <p class="card-text text-center" style="margin-left: 1rem;">FREE FIRE
+                <br>
+                <br>
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========FREE FIRE======= -->
+        </div>
+      </div>
+      <!-- =========CARD END=========== -->
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="pubg.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color3">
+              <img src="asset/img/pubg.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body">
+                <p class="card-text text-center" style="margin-left: .4rem; font-size: .7em">PUBG MOBILE
+                <br>
+                <br>
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="valo.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color4">
+              <img src="asset/img/valo.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body">
+                <p class="card-text text-center" style="margin-left: .5rem;">VALORANT
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="apex.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color5">
+              <img src="asset/img/apexm.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body" style="height: -90px;">
+                <p class="card-text bg-transparant text-center" style="width: 130%; font-size:.7em; margin-left:.5em">APEX MOBILE
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="pb.html" class="item-choose">
+            <div class="card" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color6">
+              <img src="asset/img/pb.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body" style="height: -90px;">
+                <p class="card-text bg-transparant text-center" style="width: 130%; font-size:.7em; margin-left:.5em">POINT BLANK
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="genshin.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color7">
+              <img src="asset/img/gensin.jpg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body" style="height: -90px;">
+                <p class="card-text bg-transparant text-center" style="width: 130%; font-size:.7em; margin-left: -.3em">GENSHIN IMPACT
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="domino.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color8">
+              <img src="asset/img/dom.jpeg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body" style="height: -70px;">
+                <p class="card-text bg-transparant text-center" style="width: 130%; font-size:.7em; margin-left: .4em">
+                  HIGGS DOMINO
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+      <div class="col-4 col-lg-9">
+        <div class="p-3">
+      <!-- =======PUBG MOBILE========= -->
+          <a href="codm.html" class="item-choose">
+            <div class="card bg-transparant" style="width: 8rem; margin-left: -.9rem; margin-top: -.9rem;" id="card-color9">
+              <img src="asset/img/codm.jpeg" class="card-img-top" alt="MLBB" width="30">
+              <div class="card-body" style="height: -70px;">
+                <p class="card-text bg-transparant text-center" style="width: 130%; font-size:.7em; margin-left: 1.1em">
+                  COD mobile
+                </p>
+              </div>
+            </div>
+          </a>
+        <!-- ========PUBG MOBILE======= -->
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- ===============FOOTER==============  -->
+  <div class="container-status" style="margin-top:4rem;">
+    <div class="wrapper-status">
+      <img src="asset/img/brand.png" alt="BRAND" width="40" height="34" style="margin-left:20px;">
+      <a class="brand-status" style="font-size:1.1em;">VAL STORE</a>
+      <span class="garis-2"></span>
+      <p class="promosi">VAL STORE adalah tempat top up games yang aman, murah dan terpercaya. Proses cepat 1-3 Detik. Open 24 jam. Payment terlengkap. Jika ada kendala silahkan klik logo CS pada kanan bawah di website ini.</p>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="container-menu">
+      <div class="wrapper-menu" id="colorList">
+        <p class="menu">Menu</p>
+        <ul class="ul-menu">
+          <li><a href="index.html" class="menu-list" id="listColor1"><span>></span> home</a></li>
+          <li><a href="wr.html" class="menu-list"id="listColor3"><span>></span> hitung WR</a></li>
+          <li><a href="wheel.html" class="menu-list" id="listColor2"><span>></span> hitung point magic wheel<a/></li>
+        </ul>
+        <p class="service">other service</p>
+        <ul class="ul-service">
+          <li><a href="" class="service-list"><span>></span> point blank</a></li>
+          <li><a href="" class="service-list"><span>></span> super sus</a></li>
+          <li><a href="" class="service-list"><span>></span> genshin impact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container-end" id="footer">
+      <div class="wrapper-end">
+        <a class="enda2">Copyright © 2021 by <a class="enda">VAL STORE</a><a class="enda2">All Rights Reserved. Owned by PT NOVAL STORE INDONESIA</a><a class="enda">Terms and conditions</a> - <a class="enda">Privacy Policy</a></a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- ========CALL CENTER CONTACT========== -->
+  
+  <div class="fab-container">
+    <div class="fab fab-icon-holder" style="background-color:#FFF; padding:5px">
+      <img src="asset/img/dinda.jpg" class="img-fluid" alt="" loading="lazy">
+    </div>
+    <ul class="fab-options">
+      <li>
+        <a href="https://www.instagram.com/novalsyahhhh/" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://wa.me/6285748638453" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background-color: #25D366;">
+            <i class="fab fa-whatsapp"></i>
+          </div>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.tiktok.com/@valsyahh_?_t=8Yyh1RapBNy&_r=1" class="text-decoration-none" target="_blank">
+          <div class="fab-icon-holder" style="background-color: #5865F2;">
+            <i class="fab fa-tiktok"></i>
+          </div>
+        </a>
+      </li>
+    </ul>
+    <a href="#" class="act-btn-top text-decoration-none" onclick="toTop()" style="display: none; background-color: #bd4cae; bottom: 19px;" data-cf-modified-3b8231d928fbd77a69f52826-="">
+    <i class="fas fa-angle-up mt-2"></i>
+    </a>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="asset/js/dark.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

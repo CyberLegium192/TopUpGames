@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.box-shadow{
+  background-color: #24242b;
+  width: 95%;
+  margin: 2rem auto;
+  height: auto;
+  border-radius: 10px;
+}
+.box-shadow h4{
+  font-size: 1.3em;
+  margin: 1rem 1rem;
+}
+.line{
+  border-bottom: 5px solid #e3ae37;
+  width: 15%;
+  margin: -.7rem 1rem;
+  border-radius: 2px;
+}
+.box-proses{
+  height: 57px;
+  width: 100%;
+  margin-top: 2rem;
+}
+.box-proses img{
+  border-radius: 5px;
+  width: 10%;
+  height: 75%;
+  margin-left: 1rem;
+  float: left;
+  margin-top: .5rem;
+}
+.proses{
+  color: #676767;
+  font-size: .9em;
+  margin-left: 4rem;
+  display: flex;
+}
+.proses2{
+  font-size: .9em ;
+  margin-top: -1.3rem;
+  margin-left: 4rem;
+}
+
+.box-step{
+  margin: 2rem 1.4rem;
+  width: 98%;
+}
+.box-step li{
+  font-size: .8em;
+  text-transform: capitalize;
+}
+.box-shadow h5{
+  color: #ff9e00;
+  margin-top: -10px;
+  font-size: 1.1em;
+  padding-bottom: 20px;
+}
+
+/* ==========DATA SERVER FORM============ */
+
+.box-shadow2{
+  background-color: #24242b;
+  width: 95%;
+  margin: -10px auto;
+  height: auto;
+  border-radius: 10px;
+}
+.box-shadow2 h5{
+  font-size: 1em;
+  margin: 1rem 1.3rem;
+}
+.asu{
+  font-size: .9em;
+}
+.data-id{
+  width: 90%;
+  margin: 1rem auto;
+}
+.petunjuk{
+  color: white;
+  background-color: #ff9e00;
+}
+
+/* =============DIAMOND CHOOSE============= */
+.box-shadow3{
+  background-color: #24242b;
+  width: 95%;
+  height: 200px;
+  margin: 2rem auto;
+  height: auto;
+  border-radius: 10px;
+}
+.wrapper-diamond{
+  width: 90%;
+  margin: 1rem auto;
+}
+.wrapper-diamond h5{
+  font-size: 1em;
+  margin-bottom: 3rem;
+}
+.pilih{
+  background-color: #2d3238;
+  padding: 10px;
+  width: 100%;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border: none;
+  border-radius: 7px;
+  text-transform: capitalize;
+  text-align: start;
+  display: flex;
+  margin: -10px -10px;
+  margin-bottom: 1.1rem;
+  flex-direction: column;
+}
+  
+.pilih p{
+  font-size: .8em;
+  display: flex;
+  margin-top: 9px;
+  margin-left: 10px;
+}
+.pilih span{
+  display: flex;
+  font-size: .6em;
+  margin-top: -.4rem;
+  padding-bottom: 8px;
+  margin-left: 10px;
+}
+/* ==========METODE PEMBAYARAN============ */
+.box-shadow4{
+  background-color: #24242b;
+  width: 95%;
+  height: auto;
+  margin: 0px auto;
+  height: auto;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+.box-shadow4 h5{
+  font-size: 1em;
+  margin: 1rem 1.3rem;
+}
+.wallet{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 1em;
+}
+.wallet2{
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-size: 1em;
+}
+.wallet3{
+  margin-left: 1rem;
+  margin-top: auto;
+  font-size: .9em;
+}
+.metode-payment1{
+  width: 95%;  
+  height: 50px;
+  margin-left: 5px;
+  background-color: #2d3238;
+  border-radius: 5px;
+  align-items: center;
+  border: none;
+  color: #c0c0c0;
+}
+#choose-payment1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -.5rem 2px;
+  font-size: 0.9em;
+}
+#choose-payment1 img{
+  width: 15%;
+  height: 25px;
+  margin-left: 1re;
+}
+#choose-payment1 h5{
+  font-size: 0.9em;
+}
+#choose-payment1 p{
+  display: flex;
+  font-size: 0.9em;
+  position: relative;
+  margin-top: 15px;
+}
+.wallet3{
+  font-size: .8em;
+  margin-right: 2rem;
+}
+
+
+/* =============EMAIL VERIFIKASI============ */
+.box-shadow5{
+  background-color: #24242b;
+  width: 95%;
+  height: 200px;
+  margin: 1rem auto;
+  height: 250px;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+.box-shadow5 h5{
+  font-size: 1.1em;
+  margin: 1rem 1.3rem;
+}
+.email-kon{
+  width: 95%;  
+  height: 50px;
+  margin: auto;
+  flex-direction: column;
+}
+.acc{
+  font-size: .8em;
+  margin-top: 7px;
+}
+.tol{
+  color: #b8720b;
+  text-decoration: underline;
+}
+.wa{
+  width: 98%;
+  text-transform: capitalize;
+}
+.whatsapp{
+  font-size: .9em;
+  margin-left: .5rem;
+}
+
+
+
+
+
+
+
+
+/* ============TOTAL DIAMONDS============= */
+.container-harga{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #353535;
+  height: 70px;
+  display: none;
+}
+.wrapper-harga{
+  display: flex;
+  height: 100%;
+  justify-content: end;
+  align-items: center;
+  
+}
+.wrapper-harga p{
+  font-size: 1.3em;
+  margin-top: 5px;
+  margin-right: 1rem;
+  color: #ff9e00;
+}
+.beli{
+  color: white;
+  width: 25%;
+  margin-right: 2rem;
+}
+
+.diamond-border{
+  box-shadow: rgb(202,147,1 ,0.3) 0px 0px 0px 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* #2d3238 */
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #2d3238;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Poppins";
+}
+nav{
+  font-size: .9em;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.top-up{
+  font-family: "Poppins";
+  margin-top: .8em;
+  font-weight: 500;
+  padding: 10px;
+  font-size: 1.3em;
+}
+.garis{
+  border-bottom: 5px solid #e3ae37;
+  border-radius: 20px;
+  width: 17%;
+  margin-left: .7rem;
+  margin-top: -.7rem;
+  display: flex;
+}
+.garis-2{
+  border-bottom: 3px solid #e3ae37;
+  border-radius: 20px;
+  width: 17%;
+  margin-left: 4rem;
+  margin-top: -.5rem;
+  display: flex;
+}
+.card-text{
+  display: flex;
+  font-size: .7em;
+  margin-left: -.5rem;
+}
+.card-body{
+  height: -70%;
+  background-color: ;
+}
+.card{
+ cursor: pointer; 
+ background-color: #2d3238;
+ box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.dark-mode{
+  background-color: white;
+  color: black;
+}
+.home {
+  margin-right: .4rem;
+}
+.brand-status{
+  text-decoration: none;
+  cursor: auto;
+  font-size: 1.4em;
+  margin-left: 5px;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+.promosi{
+  font-size: .8em;
+  font-weight: 500;
+  margin-top: 1rem;
+  width: 90%;
+  margin-left: 15px;
+  font-family: "Poppins";
+}
+.menu{
+  margin-left: 15px;
+  font-size: 1.1em;
+  font-weight: 500;
+  margin-top: 1rem;
+  display: flex;
+  font-family: "Poppins";
+}
+.ul-menu{
+  margin-top: -.8rem;
+  font-size: .9em;
+  font-family: "Poppins";
+  list-style-type: none;
+}
+.ul-menu span{
+  color: #e3ae37;
+  font-size: 1em;
+}
+
+
+
+
+
+
+
+.service{
+  margin-left: 23px;
+  font-size: 1em;
+  font-weight: 500;
+  margin-top: 1rem;
+  display: flex;
+  font-family: "Poppins";
+}
+.service-list{
+  text-decoration: none;
+  color: white;
+}
+.ul-service{
+  margin-top: -.8rem;
+  font-size: .9em;
+  font-family: "Poppins";
+  list-style-type: none;
+}
+.service-list{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.ul-service span{
+  color: #e3ae37;
+  font-size: 1em;
+}
+.container-end{
+  background-color: #00000069;
+  margin-top: 1.8rem;
+}
+.wrapper-end{
+  width: 90%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+.enda2{
+  font-size: .8em;
+  width: 80%;
+}
+
+.enda{
+  text-decoration: underline;
+  font-size: .9em;
+  padding: 4px;
+}
+
+.shadow1{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  font-family: "Poppins";
+}
+
+
+/* ==========CALCULATOR WINRATE============= */
+.calculator{
+  margin-left: 1rem;
+  font-family: "Poppins";
+  margin-top: 1.1rem;
+}
+.winrate{
+  font-size: 1.1em;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.ket-winrate{
+  font-size: .8em;
+  text-transform: capitalize;
+  margin-top: -1rem;
+}
+.line{
+  border-bottom: 2px solid #818181;
+  width: 96%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* ========TEXT AREA INPUT WINRATE=========== */
+.container-input-area{
+  width:93%; 
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+  font-family: "Poppins";
+}
+.label-text{
+  font-size: .8em;
+  margin-bottom: 5px;
+}
+
+.resultText{
+  font-size: .8em;
+  margin-top: 1.4rem;
+  text-align: center;
+  font-family: "Poppins";
+}
+
+
+
+/* ==========RANGE STYLE =================*/
+.slidecontainer {
+  width: 100%;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #e3ae37;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  border-radius: 12px;
+}
+.slider:hover {
+  opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #b18f45;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #000000;
+  cursor: pointer;
+}
+.herman{
+  text-align: center;
+}
+
+
+
+
+/* ===============CALL CANTER============ */
+.fab-container {
+  position: fixed;
+  bottom: 70px;
+  right: 10px;
+  z-index: 999;
+  cursor: pointer;
+}
+.fab-icon-holder {
+  width: 45px;
+  height: 45px;
+  bottom: 140px;
+  left: 10px;
+  color: #FFF;
+  background: #5865f2;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 99999;
+}
+.fab-icon-holder:hover {
+  opacity: 0.8;
+}
+.fab-icon-holder i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 25px;
+  color: #ffffff;
+}
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  bottom: 48px;
+  left: -37px;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 85% bottom;
+}
+.fab:hover+.fab-options,
+.fab-options:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+.fab-options li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
+}
+.fab-label {
+  padding: 2px 5px;
+  align-self: center;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 16px;
+  background: #666666;
+  color: #ffffff;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+
+
+
+
+
+
